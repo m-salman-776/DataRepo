@@ -1,0 +1,14 @@
+
+      Method of Queue
+      
+      empty()   : this return true or false if queue is empty accordingly
+      size()    :return the size of queue 
+      
+      
+      pup(val)  :pushes val to last of the queue 
+      pop()     remove first element of the queue
+      
+      
+      font()    return refernce of front element of the queue
+      back()    return reference of the last element 
+      
