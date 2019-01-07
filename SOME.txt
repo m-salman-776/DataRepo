@@ -1,1 +1,12 @@
-hi there
+std::cout << std::setbase(16); 
+  
+// displaying 255 in hexadecimal 
+std::cout << 255 << std::endl; 
+output: (255) at base 16
+  
+    // set base to Octal 
+    std::cout << std::setbase(8); 
+  
+    // displaying 255 in Octal 
+    std::cout << 255 << std::endl; 
+    output 255 at base 8
