@@ -5,7 +5,7 @@
       size()    :return the size of queue 
       
       
-      pup(val)  :pushes val to last of the queue 
+      push(val)  :pushes val to last of the queue 
       pop()     remove first element of the queue
       
       
