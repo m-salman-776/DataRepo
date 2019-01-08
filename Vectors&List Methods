@@ -37,3 +37,16 @@ Following are the some common operation on some of most freqeutly use STL
         insert() – Inserts new elements in the list before the element at a specified position.
         erase() – Removes a single element or a range of elements from the list
         
+  3. Queue
+         Method of Queue
+      
+            empty()   : this return true or false if queue is empty accordingly
+            size()    :return the size of queue 
+            
+            
+            push(val)  :pushes val to last of the queue 
+            pop()     remove first element of the queue
+      
+      
+            front()    return refernce of front element of the queue
+            back()    return reference of the last element 
