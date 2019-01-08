@@ -9,6 +9,6 @@
       pop()     remove first element of the queue
       
       
-      font()    return refernce of front element of the queue
+      front()    return refernce of front element of the queue
       back()    return reference of the last element 
       
