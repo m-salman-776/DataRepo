@@ -26,3 +26,29 @@ int main() {
 	}
 	return 0;
 }
+
+//https://practice.geeksforgeeks.org/problems/paths-to-reach-origin/0
+#include <bits/stdc++.h>
+using namespace std;
+int arr[26][26];
+int fun(int i,int j)
+{
+    if(i==0 || j==0)
+    return 1;
+    else if(arr[i][j]!=-1)
+    return arr[i][j];
+    else return (arr[i][j]=fun(i-1,j)+fun(i,j-1));
+}
+int main() {
+	//code
+	int T;
+	cin>>T;
+	memset(arr,-1,sizeof(arr));
+	for(int t=0;t<T;t++)
+	{
+	    int n,m;
+	    cin>>n>>m;
+	    cout<<fun(n,m)<<endl;
+	}
+	return 0;
+}
